@@ -28,7 +28,7 @@ createRoot(document.getElementById('root')).render(
       {/* <CounterWithCustomHook/> */}
       {/* <SimpleForm/> */}
       {/* <FormWithCustomHook/> */}
-      {/* <MultipleCustomHooks/> */}
+      <MultipleCustomHooks/>
       {/* <FOcusScreen/> */}
       {/* <Layout/> */}
       {/* <Memorize/> */}
@@ -36,7 +36,7 @@ createRoot(document.getElementById('root')).render(
       {/* <CallbackHook/> */}
       {/* <Padre/> */}
       {/* <TodoApp/> */}
-      <MainApp/>
+      {/* <MainApp/> */}
     </BrowserRouter>
   </StrictMode>  
 )

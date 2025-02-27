@@ -32,7 +32,7 @@ export const MultipleCustomHooks = () => {
       <button className='btn btn-primary' onClick={() => counter > 1 ? decrement():null}>
         Anterior
       </button>
-      <button className='btn btn-primary' onClick={() => increment()}>
+      <button aria-label='Next' className='btn btn-primary' onClick={() => increment()}>
         Siguiente
       </button>
     </>
