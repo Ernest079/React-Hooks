@@ -22,21 +22,10 @@ describe('Pruebas en TodoApp', () => {
   test('Debe de mostrar el componente correctamente', () => {
     render(<TodoApp/>);
     screen.debug();
+    expect(screen.getByText('Todo 1')).toBeTruthy();
+    expect(screen.getByText('Todo 2')).toBeTruthy();
+    expect(screen.getByText('Todo 3')).toBeTruthy();
+    expect(screen.getByRole('textbox')).toBeTruthy();
   });
-
-  test('', () => {
-
-  });
-
-  test('', () => {
-
-  });
-
-  test('', () => {
-
-  });
-
-  test('', () => {
-
-  });
+  
 });
